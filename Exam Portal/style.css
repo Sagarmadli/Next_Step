@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  text-align: center;
+  color: #336699;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label,
+input,
+button {
+  margin: 10px;
+}
+
+#login {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#test {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#results {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Add images as background */
+#login {
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190625/ourmid/pngtree-blue-business-technology-information-security-banner-background-image_260807.jpg");
+  background-size: cover;
+}
+
+#test {
+  background-image: url("https://ghimg.imgix.net/djuploads/Banner+image_6.svg");
+  background-size: cover;
+}
+
+#results {
+  background-image: url("https://us.123rf.com/450wm/olejio/olejio2107/olejio210700004/171921835-blue-stage-podium-with-falling-down-colorful-confetti-on-light-background-winner-congratulations.jpg?ver=6");
+  background-size: cover;
+}
+
+#homebtn{
+  border: #336699 2px solid;
+  padding: 10px;
+  margin-left:240px;
+  box-shadow: inset;
+}
+
+.homebtntag{
+  text-decoration: none;
+}
+
+#homebtn:hover{
+  background-color: #336699;
+}
